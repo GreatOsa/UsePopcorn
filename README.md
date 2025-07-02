@@ -1,12 +1,37 @@
-# React + Vite
+# UsePopcorn
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+UsePopcorn is a movie app that allows you to search for movies and rate the ones you have watched. This README provides an overview of the project, setup instructions, and usage guidelines.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Search for movies by title
+- View movie details
+- Rate movies you have watched
+- Track your watched movies
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+
+- Node.js (v14 or higher)
+- npm or yarn
+
+### Installation
+
+```bash
+git clone https://github.com/GreatOsa/UsePopcorn.git
+cd UsePopcorn
+npm install
+```
+
+## Usage
+
+```bash
+npm run dev
+```
+
+Open your browser and navigate to `http://localhost:5173/ to use the app.
+
+## Contributing
+
+Contributions are welcome! Please open issues or submit pull requests for improvements.
